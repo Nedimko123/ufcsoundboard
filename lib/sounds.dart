@@ -66,6 +66,18 @@ var soundBoard = [
     "desc": "Lesnar on top"
   },
   {
+    "title": "chaelgreatness",
+    "link": "chaelgreatness.mp3",
+    "category": "Chael Sonnen",
+    "desc": "Chael Greatness"
+  },
+  {
+    "title": "chaelicantletyougetclose",
+    "link": "chaelicantletyougetclose.mp3",
+    "category": "Chael Sonnen",
+    "desc": "I cant let you get close"
+  },
+  {
     "title": "chaelsilva",
     "link": "chaelsilva.mp3",
     "category": "Chael Sonnen",
@@ -214,6 +226,12 @@ var soundBoard = [
     "link": "conorapology.mp3",
     "category": "Conor McGregor",
     "desc": "Apology"
+  },
+  {
+    "title": "mcgregoryayaya",
+    "link": "mcgregoryayaya.mp3",
+    "category": "Conor McGregor",
+    "desc": "Ayayaya"
   },
   {
     "title": "mccgregorsurprise",
@@ -702,6 +720,60 @@ var soundBoard = [
     "desc": "Im a scouser"
   },
   {
+    "title": "costacirequedesole",
+    "link": "costacirequedesole.mp3",
+    "category": "Paulo Costa",
+    "desc": "Costa cirque de sole"
+  },
+  {
+    "title": "costahoneeymoon",
+    "link": "costahoneeymoon.mp3",
+    "category": "Paulo Costa",
+    "desc": "Honeey moon"
+  },
+  {
+    "title": "costaskinnyclaw",
+    "link": "costaskinnyclaw.mp3",
+    "category": "Paulo Costa",
+    "desc": "Skinny claw"
+  },
+  {
+    "title": "costayairpainter",
+    "link": "costayairpainter.mp3",
+    "category": "Paulo Costa",
+    "desc": "Painter"
+  },
+  {
+    "title": "costaswephisface",
+    "link": "costaswephisface.mp3",
+    "category": "Paulo Costa",
+    "desc": "Swep his face"
+  },
+  {
+    "title": "costabroing",
+    "link": "costabroing.mp3",
+    "category": "Paulo Costa",
+    "desc": "Broing"
+  },
+  {
+    "title": "costaiwillbe100percent",
+    "link": "costaiwillbe100percent.mp3",
+    "category": "Paulo Costa",
+    "desc": "100 percent"
+  },
+  {
+    "title": "costajizzaprove",
+    "link": "costajizzaprove.mp3",
+    "category": "Paulo Costa",
+    "desc": "Jizzaprove"
+  },
+  {
+    "title": "costaumantrash",
+    "link": "costaumantrash.mp3",
+    "category": "Paulo Costa",
+    "desc": "Uman trash"
+  },
+  {
     "title": "costaexcuse",
     "link": "costaexcuse.mp3",
     "category": "Paulo Costa",
@@ -712,6 +784,12 @@ var soundBoard = [
     "link": "costalicense.mp3",
     "category": "Paulo Costa",
     "desc": "You have license "
+  },
+  {
+    "title": "adesanyacalloutcosta",
+    "link": "adesanyacalloutcosta.mp3",
+    "category": "Israel Adesanya",
+    "desc": "Adesanya callout Costa"
   },
   {
     "title": "stipemiocicmumbling",
@@ -790,6 +868,30 @@ var soundBoard = [
     "link": "romeroiloveyou.mp3",
     "category": "Yoel Romero",
     "desc": "I love you"
+  },
+  {
+    "title": "wandereiswoon",
+    "link": "wandereiswoon.mp3",
+    "category": "Wanderlei Silva",
+    "desc": "Swoon"
+  },
+  {
+    "title": "wanderleisuckmyballs",
+    "link": "wanderleisuckmyballs.mp3",
+    "category": "Wanderlei Silva",
+    "desc": "Suck my balls"
+  },
+  {
+    "title": "wanderleiwannanow2",
+    "link": "wanderleiwannanow2.mp3",
+    "category": "Wanderlei Silva",
+    "desc": "Wanna now"
+  },
+  {
+    "title": "wanderleisilvawannanow",
+    "link": "wanderleisilvawannanow.mp3",
+    "category": "Wanderlei Silva",
+    "desc": "Wanna now 2"
   },
 ];
 
