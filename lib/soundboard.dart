@@ -17,6 +17,7 @@ import 'utils.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 //Swipe
 import 'package:swipeable_page_route/swipeable_page_route.dart';
+//Duration and snackbar
 
 class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -175,9 +176,42 @@ class _MyAppState extends State<MyApp> {
                                     subtitle: Text(searchList[index]['category']
                                         .toString()),
                                     onTap: () async {
-                                      await player.setAsset('assets/' +
-                                          searchList[index]['link'].toString());
+                                      ScaffoldMessenger.of(context)
+                                          .hideCurrentSnackBar();
+                                      var duration = await player.setAsset(
+                                          'assets/' +
+                                              searchList[index]['link']
+                                                  .toString());
+
                                       player.play();
+
+                                      ScaffoldMessenger.of(context)
+                                          .showSnackBar(
+                                        SnackBar(
+                                          behavior: SnackBarBehavior.floating,
+                                          backgroundColor:
+                                              Colors.red.withOpacity(0.5),
+                                          duration: duration as Duration,
+                                          content: SizedBox(
+                                            width: 100,
+                                            child: ListTile(
+                                              title: Text(
+                                                'Playing: ' +
+                                                    searchList[index]['desc']
+                                                        .toString(),
+                                              ),
+                                              trailing: ElevatedButton(
+                                                onPressed: () {
+                                                  player.stop();
+                                                  ScaffoldMessenger.of(context)
+                                                      .hideCurrentSnackBar();
+                                                },
+                                                child: const Text('STOP'),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      );
                                     },
                                   ),
                                 ],

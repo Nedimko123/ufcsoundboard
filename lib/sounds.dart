@@ -2,894 +2,894 @@ var saved = [];
 var songs = [
   {
     "title": "ufctitlefightweighin",
-    "link": "titlef.mp3",
+    "link": "nedimtitlef.mp3",
     "desc": "Title Fight Weigh in"
   },
-  {"title": "weighin4", "link": "weighin4.mp3", "desc": "Weigh in 1"},
-  {"title": "weighin1", "link": "weighin1.mp3", "desc": "Weigh in 2"},
-  {"title": "weighin3", "link": "weighin3.mp3", "desc": "Weigh in 3"},
-  {"title": "weighin2", "link": "weighin2.mp3", "desc": "Weigh in 4"},
-  {"title": "weighin5", "link": "weighin5.mp3", "desc": "Weigh in 5"},
+  {"title": "weighin4", "link": "nedimweighin4.mp3", "desc": "Weigh in 1"},
+  {"title": "weighin1", "link": "nedimweighin1.mp3", "desc": "Weigh in 2"},
+  {"title": "weighin3", "link": "nedimweighin3.mp3", "desc": "Weigh in 3"},
+  {"title": "weighin2", "link": "nedimweighin2.mp3", "desc": "Weigh in 4"},
+  {"title": "weighin5", "link": "nedimweighin5.mp3", "desc": "Weigh in 5"},
   {
     "title": "lacandela1",
-    "link": "lacandela1.mp3",
+    "link": "nedimlacandela1.mp3",
     "desc": "Romero La Candela"
   },
 ];
 var soundBoard = [
   {
     "title": "ifeltthetap2",
-    "link": "ifeltthetap2.mp3",
+    "link": "nedimifeltthetap2.mp3",
     "category": "Alistair Overeem",
     "desc": "I clearly felt the tap"
   },
   {
     "title": "ifeltthetap",
-    "link": "ifeltthetap.mp3",
+    "link": "nedimifeltthetap.mp3",
     "category": "Alistair Overeem",
     "desc": "I clearly felt the tap 2"
   },
   {
     "title": "silvaiback",
-    "link": "silvaiback.mp3",
+    "link": "nedimsilvaiback.mp3",
     "category": "Anderson Silva",
     "desc": "I back"
   },
   {
     "title": "imcoming",
-    "link": "imcoming.mp3",
+    "link": "nedimimcoming.mp3",
     "category": "Brock Lesnar",
     "desc": "I am coming for you mf"
   },
   {
     "title": "lesnarcallout",
-    "link": "lesnarcallout.mp3",
+    "link": "nedimlesnarcallout.mp3",
     "category": "Brock Lesnar",
     "desc": "Lesnar DC"
   },
   {
     "title": "lesnarcanyouseeme",
-    "link": "lesnarcanyouseeme.mp3",
+    "link": "nedimlesnarcanyouseeme.mp3",
     "category": "Brock Lesnar",
     "desc": "Can you see me now"
   },
   {
     "title": "lesnarhorseshoe",
-    "link": "lesnarhorseshoe.mp3",
+    "link": "nedimlesnarhorseshoe.mp3",
     "category": "Brock Lesnar",
     "desc": "Horse shoe"
   },
   {
     "title": "lesnartopwife",
-    "link": "lesnartopwife.mp3",
+    "link": "nedimlesnartopwife.mp3",
     "category": "Brock Lesnar",
     "desc": "Lesnar on top"
   },
   {
     "title": "chaelgreatness",
-    "link": "chaelgreatness.mp3",
+    "link": "nedimchaelgreatness.mp3",
     "category": "Chael Sonnen",
     "desc": "Chael Greatness"
   },
   {
     "title": "chaelicantletyougetclose",
-    "link": "chaelicantletyougetclose.mp3",
+    "link": "nedimchaelicantletyougetclose.mp3",
     "category": "Chael Sonnen",
     "desc": "I cant let you get close"
   },
   {
     "title": "chaelsilva",
-    "link": "chaelsilva.mp3",
+    "link": "nedimchaelsilva.mp3",
     "category": "Chael Sonnen",
     "desc": "Anderson Silva you suck"
   },
   {
     "title": "colby10pushups2",
-    "link": "colby10pushups2.mp3",
+    "link": "nedimcolby10pushups2.mp3",
     "category": "Colby Covington",
     "desc": "Give me 10 pushups"
   },
   {
     "title": "colby10pushups",
-    "link": "colby10pushups.mp3",
+    "link": "nedimcolby10pushups.mp3",
     "category": "Colby Covington",
     "desc": "Give me 10 pushups 2"
   },
   {
     "title": "colbybanana",
-    "link": "colbybanana.mp3",
+    "link": "nedimcolbybanana.mp3",
     "category": "Colby Covington",
     "desc": "I slip on a banana peel"
   },
   {
     "title": "colbybedsheets",
-    "link": "colbybedsheets.mp3",
+    "link": "nedimcolbybedsheets.mp3",
     "category": "Colby Covington",
     "desc": "Bed sheets"
   },
   {
     "title": "colbybenaskren",
-    "link": "colbybenaskren.mp3",
+    "link": "nedimcolbybenaskren.mp3",
     "category": "Colby Covington",
     "desc": "Ben Ascream"
   },
   {
     "title": "colbybrazil",
-    "link": "colbybrazil.mp3",
+    "link": "nedimcolbybrazil.mp3",
     "category": "Colby Covington",
     "desc": "Brazil"
   },
   {
     "title": "colbycalloutdustin",
-    "link": "colbycalloutdustin.mp3",
+    "link": "nedimcolbycalloutdustin.mp3",
     "category": "Colby Covington",
     "desc": "Dustin callout"
   },
   {
     "title": "colbyconman",
-    "link": "colbyconman.mp3",
+    "link": "nedimcolbyconman.mp3",
     "category": "Colby Covington",
     "desc": "ConMan"
   },
   {
     "title": "colbydragonenergy",
-    "link": "colbydragonenergy.mp3",
+    "link": "nedimcolbydragonenergy.mp3",
     "category": "Colby Covington",
     "desc": "Dragon energy"
   },
   {
     "title": "colbyhooker2",
-    "link": "colbyhooker2.mp3",
+    "link": "nedimcolbyhooker2.mp3",
     "category": "Colby Covington",
     "desc": "Dan Hooker"
   },
   {
     "title": "colbyhooker",
-    "link": "colbyhooker.mp3",
+    "link": "nedimcolbyhooker.mp3",
     "category": "Colby Covington",
     "desc": "Dan Hooker 2"
   },
   {
     "title": "colbykhabib",
-    "link": "colbykhabib.mp3",
+    "link": "nedimcolbykhabib.mp3",
     "category": "Colby Covington",
     "desc": "Khabib"
   },
   {
     "title": "colbyletthemenjoy",
-    "link": "colbyletthemenjoy.mp3",
+    "link": "nedimcolbyletthemenjoy.mp3",
     "category": "Colby Covington",
     "desc": "Let them enjoy themselves"
   },
   {
     "title": "colbymarknotsogoodard",
-    "link": "colbymarknotsogoodard.mp3",
+    "link": "nedimcolbymarknotsogoodard.mp3",
     "category": "Colby Covington",
     "desc": "Mark Not so Goodard"
   },
   {
     "title": "colbymartyfakenewsman",
-    "link": "colbymartyfakenewsman.mp3",
+    "link": "nedimcolbymartyfakenewsman.mp3",
     "category": "Colby Covington",
     "desc": "Marty Fake newsman"
   },
   {
     "title": "colbypeptobismol",
-    "link": "colbypeptobismol.mp3",
+    "link": "nedimcolbypeptobismol.mp3",
     "category": "Colby Covington",
     "desc": "Pepto bismol"
   },
   {
     "title": "colbypromocode",
-    "link": "colbypromocode.mp3",
+    "link": "nedimcolbypromocode.mp3",
     "category": "Colby Covington",
     "desc": "Mybookie.ag"
   },
   {
     "title": "colbyrda",
-    "link": "colbyrda.mp3",
+    "link": "nedimcolbyrda.mp3",
     "category": "Colby Covington",
     "desc": "RDA"
   },
   {
     "title": "colbysize",
-    "link": "colbysize.mp3",
+    "link": "nedimcolbysize.mp3",
     "category": "Colby Covington",
     "desc": "Size"
   },
   {
     "title": "colbyusman",
-    "link": "colbyusman.mp3",
+    "link": "nedimcolbyusman.mp3",
     "category": "Colby Covington",
     "desc": "That was my worst night"
   },
   {
     "title": "colbywho2",
-    "link": "colbywho2.mp3",
+    "link": "nedimcolbywho2.mp3",
     "category": "Colby Covington",
     "desc": "Whos that"
   },
   {
     "title": "colbywho",
-    "link": "colbywho.mp3",
+    "link": "nedimcolbywho.mp3",
     "category": "Colby Covington",
     "desc": "Whos that 2"
   },
   {
     "title": "colbyyouredead",
-    "link": "colbyyouredead.mp3",
+    "link": "nedimcolbyyouredead.mp3",
     "category": "Colby Covington",
     "desc": "You are ded"
   },
   {
     "title": "conorapology",
-    "link": "conorapology.mp3",
+    "link": "nedimconorapology.mp3",
     "category": "Conor McGregor",
     "desc": "Apology"
   },
   {
     "title": "mcgregoryayaya",
-    "link": "mcgregoryayaya.mp3",
+    "link": "nedimmcgregoryayaya.mp3",
     "category": "Conor McGregor",
     "desc": "Ayayaya"
   },
   {
     "title": "mccgregorsurprise",
-    "link": "mccgregorsurprise.mp3",
+    "link": "nedimmccgregorsurprise.mp3",
     "category": "Conor McGregor",
     "desc": "Surprise"
   },
   {
     "title": "mcgregor60gs",
-    "link": "mcgregor60gs.mp3",
+    "link": "nedimmcgregor60gs.mp3",
     "category": "Conor McGregor",
     "desc": "60gs"
   },
   {
     "title": "mcgregorabdelaziz",
-    "link": "mcgregorabdelaziz.mp3",
+    "link": "nedimmcgregorabdelaziz.mp3",
     "category": "Conor McGregor",
     "desc": "Abelaziz"
   },
   {
     "title": "mcgregorcount",
-    "link": "mcgregorcount.mp3",
+    "link": "nedimmcgregorcount.mp3",
     "category": "Conor McGregor",
     "desc": "Nate can only count"
   },
   {
     "title": "mcgregordm",
-    "link": "mcgregordm.mp3",
+    "link": "nedimmcgregordm.mp3",
     "category": "Conor McGregor",
     "desc": "Yo wife is in me Dms"
   },
   {
     "title": "mcgregorfoot",
-    "link": "mcgregorfoot.mp3",
+    "link": "nedimmcgregorfoot.mp3",
     "category": "Conor McGregor",
     "desc": "My foot was a baloon"
   },
   {
     "title": "mcgregorgods",
-    "link": "mcgregorgods.mp3",
+    "link": "nedimmcgregorgods.mp3",
     "category": "Conor McGregor",
     "desc": "God"
   },
   {
     "title": "mcgregormamama",
-    "link": "mcgregormamama.mp3",
+    "link": "nedimmcgregormamama.mp3",
     "category": "Conor McGregor",
     "desc": "MAMAMA"
   },
   {
     "title": "mcgregornocheck",
-    "link": "mcgregornocheck.mp3",
+    "link": "nedimmcgregornocheck.mp3",
     "category": "Conor McGregor",
     "desc": "there was no check"
   },
   {
     "title": "mcgregornuting",
-    "link": "mcgregornuting.mp3",
+    "link": "nedimmcgregornuting.mp3",
     "category": "Conor McGregor",
     "desc": "youll do nuttin"
   },
   {
     "title": "mcgregoroleoleole",
-    "link": "mcgregoroleoleole.mp3",
+    "link": "nedimmcgregoroleoleole.mp3",
     "category": "Conor McGregor",
     "desc": "Ole ole ole ole"
   },
   {
     "title": "mcgregorredpanties",
-    "link": "mcgregorredpanties.mp3",
+    "link": "nedimmcgregorredpanties.mp3",
     "category": "Conor McGregor",
     "desc": "Red panties"
   },
   {
     "title": "mcgregorsfriends",
-    "link": "mcgregorsfriends.mp3",
+    "link": "nedimmcgregorsfriends.mp3",
     "category": "Conor McGregor",
     "desc": "Mcgregors Friend"
   },
   {
     "title": "mcgregorshutyourmouth",
-    "link": "mcgregorshutyourmouth.mp3",
+    "link": "nedimmcgregorshutyourmouth.mp3",
     "category": "Conor McGregor",
     "desc": "Shut yo mouth"
   },
   {
     "title": "mcgregorsorry",
-    "link": "mcgregorsorry.mp3",
+    "link": "nedimmcgregorsorry.mp3",
     "category": "Conor McGregor",
     "desc": "Sorry"
   },
   {
     "title": "mcgregortakeover",
-    "link": "mcgregortakeover.mp3",
+    "link": "nedimmcgregortakeover.mp3",
     "category": "Conor McGregor",
     "desc": "Takeover"
   },
   {
     "title": "mcgregorthisisnotover",
-    "link": "mcgregorthisisnotover.mp3",
+    "link": "nedimmcgregorthisisnotover.mp3",
     "category": "Conor McGregor",
     "desc": "This is not over"
   },
   {
     "title": "mcgregortiming",
-    "link": "mcgregortiming.mp3",
+    "link": "nedimmcgregortiming.mp3",
     "category": "Conor McGregor",
     "desc": "Timing beats"
   },
   {
     "title": "mcgregorwho2",
-    "link": "mcgregorwho2.mp3",
+    "link": "nedimmcgregorwho2.mp3",
     "category": "Conor McGregor",
     "desc": "Who is that"
   },
   {
     "title": "mcgregorwho",
-    "link": "mcgregorwho.mp3",
+    "link": "nedimmcgregorwho.mp3",
     "category": "Conor McGregor",
     "desc": "Who is that 2"
   },
   {
     "title": "danawhiteillegale",
-    "link": "danawhiteillegale.mp3",
+    "link": "nedimdanawhiteillegale.mp3",
     "category": "Dana White",
     "desc": "Thats illeagle"
   },
   {
     "title": "dccalloutjonjones",
-    "link": "dccalloutjonjones.mp3",
+    "link": "nedimdccalloutjonjones.mp3",
     "category": "Daniel Cormier",
     "desc": "Jon Jones "
   },
   {
     "title": "dcwhowho",
-    "link": "dcwhowho.mp3",
+    "link": "nedimdcwhowho.mp3",
     "category": "Daniel Cormier",
     "desc": "Who"
   },
   {
     "title": "darrentilldoubters",
-    "link": "darrentilldoubters.mp3",
+    "link": "nedimdarrentilldoubters.mp3",
     "category": "Darren Till",
     "desc": "Doubters"
   },
   {
     "title": "darrentillscared",
-    "link": "darrentillscared.mp3",
+    "link": "nedimdarrentillscared.mp3",
     "category": "Darren Till",
     "desc": "Scared"
   },
   {
     "title": "lewisfrench",
-    "link": "lewisfrench.mp3",
+    "link": "nedimlewisfrench.mp3",
     "category": "Derick Lewis",
     "desc": "Excuse my french"
   },
   {
     "title": "diazasalamualeykum",
-    "link": "diazasalamualeykum.mp3",
+    "link": "nedimdiazasalamualeykum.mp3",
     "category": "Diaz brothers",
     "desc": "Asalamu aleykum"
   },
   {
     "title": "diazcallout",
-    "link": "diazcallout.mp3",
+    "link": "nedimdiazcallout.mp3",
     "category": "Diaz brothers",
     "desc": "Diaz callout f that"
   },
   {
     "title": "diazgameplan",
-    "link": "diazgameplan.mp3",
+    "link": "nedimdiazgameplan.mp3",
     "category": "Diaz brothers",
     "desc": "Diaz Gameplan"
   },
   {
     "title": "diazgangster1",
-    "link": "diazgangster1.mp3",
+    "link": "nedimdiazgangster1.mp3",
     "category": "Diaz brothers",
     "desc": "He aint not west coast gangsta"
   },
   {
     "title": "diazgangster",
-    "link": "diazgangster.mp3",
+    "link": "nedimdiazgangster.mp3",
     "category": "Diaz brothers",
     "desc": "He aint not west coast gangsta 2"
   },
   {
     "title": "diaznotsuprised",
-    "link": "diaznotsuprised.mp3",
+    "link": "nedimdiaznotsuprised.mp3",
     "category": "Diaz brothers",
     "desc": "I am not surprised"
   },
   {
     "title": "diazpoison",
-    "link": "diazpoison.mp3",
+    "link": "nedimdiazpoison.mp3",
     "category": "Diaz brothers",
     "desc": "They poisoned my ivs"
   },
   {
     "title": "diazscared",
-    "link": "diazscared.mp3",
+    "link": "nedimdiazscared.mp3",
     "category": "Diaz brothers",
     "desc": "I dont think hes hurt"
   },
   {
     "title": "diazslap",
-    "link": "diazslap.mp3",
+    "link": "nedimdiazslap.mp3",
     "category": "Diaz brothers",
     "desc": "Where I come from people like that get slapped"
   },
   {
     "title": "diazsteroids2",
-    "link": "diazsteroids2.mp3",
+    "link": "nedimdiazsteroids2.mp3",
     "category": "Diaz brothers",
     "desc": "Everybody is on steroids"
   },
   {
     "title": "diazsteroids",
-    "link": "diazsteroids.mp3",
+    "link": "nedimdiazsteroids.mp3",
     "category": "Diaz brothers",
     "desc": "You are on steroids"
   },
   {
     "title": "diazsuck",
-    "link": "diazsuck.mp3",
+    "link": "nedimdiazsuck.mp3",
     "category": "Diaz brothers",
     "desc": "The reason I was off because everybody sucked"
   },
   {
     "title": "diazwhereyouat",
-    "link": "diazwhereyouat.mp3",
+    "link": "nedimdiazwhereyouat.mp3",
     "category": "Diaz brothers",
     "desc": "Where you at George"
   },
   {
     "title": "diazwolftickets",
-    "link": "diazwolftickets.mp3",
+    "link": "nedimdiazwolftickets.mp3",
     "category": "Diaz brothers",
     "desc": "Wolf tickets"
   },
   {
     "title": "diazwrestlerr",
-    "link": "diazwrestlerr.mp3",
+    "link": "nedimdiazwrestlerr.mp3",
     "category": "Diaz brothers",
     "desc": "Wrestler"
   },
   {
     "title": "gazellediaz",
-    "link": "gazellediaz.mp3",
+    "link": "nedimgazellediaz.mp3",
     "category": "Diaz brothers",
     "desc": "No one knows what a gazelle is "
   },
   {
     "title": "alcoholandcigaretes",
-    "link": "alcoholandcigaretes.mp3",
+    "link": "nedimalcoholandcigaretes.mp3",
     "category": "Dominic Cruz",
     "desc": "The ref smelled like alcohol and cigaretes"
   },
   {
     "title": "poiriermcgregorfast",
-    "link": "poiriermcgregorfast.mp3",
+    "link": "nedimpoiriermcgregorfast.mp3",
     "category": "Dustin Poirier",
     "desc": "McGregor sleep"
   },
   {
     "title": "eddiealvarzsoul",
-    "link": "eddiealvarzsoul.mp3",
+    "link": "nedimeddiealvarzsoul.mp3",
     "category": "Eddie Alvarez",
     "desc": "Taking his soul"
   },
   {
     "title": "imnotimpressed",
-    "link": "imnotimpressed.mp3",
+    "link": "nedimimnotimpressed.mp3",
     "category": "GSP",
     "desc": "I am not impressed"
   },
   {
     "title": "cejudocallout",
-    "link": "cejudocallout.mp3",
+    "link": "nedimcejudocallout.mp3",
     "category": "Henry Cejudo",
     "desc": "Cejudo callout"
   },
   {
     "title": "joanaagain",
-    "link": "joanaagain.mp3",
+    "link": "nedimjoanaagain.mp3",
     "category": "Joanna",
     "desc": "And AGAIN AND AGAIN"
   },
   {
     "title": "heypusy",
-    "link": "heypusy.mp3",
+    "link": "nedimheypusy.mp3",
     "category": "Jon Jones",
     "desc": "Hey psy are you still there"
   },
   {
     "title": "jonjoneslesnar",
-    "link": "jonjoneslesnar.mp3",
+    "link": "nedimjonjoneslesnar.mp3",
     "category": "Jon Jones",
     "desc": "Lesnar"
   },
   {
     "title": "khabibbulshii",
-    "link": "khabibbulshii.mp3",
+    "link": "nedimkhabibbulshii.mp3",
     "category": "Khabib Nurmagomedov",
     "desc": "This is no1 bs"
   },
   {
     "title": "khabibchicken",
-    "link": "khabibchicken.mp3",
+    "link": "nedimkhabibchicken.mp3",
     "category": "Khabib Nurmagomedov",
     "desc": "I want to fight with your chicken"
   },
   {
     "title": "khabibrussian",
-    "link": "khabibrussian.mp3",
+    "link": "nedimkhabibrussian.mp3",
     "category": "Khabib Nurmagomedov",
     "desc": "Russian"
   },
   {
     "title": "khabibstupid",
-    "link": "khabibstupid.mp3",
+    "link": "nedimkhabibstupid.mp3",
     "category": "Khabib Nurmagomedov",
     "desc": "Stupid guy"
   },
   {
     "title": "allahuakbar",
-    "link": "allahuakbar.mp3",
+    "link": "nedimallahuakbar.mp3",
     "category": "Khamzat Chimaev",
     "desc": "Allahu Akbar"
   },
   {
     "title": "kill everybody",
-    "link": "kill everybody.mp3",
+    "link": "nedimkill everybody.mp3",
     "category": "Khamzat Chimaev",
     "desc": "Kill everybody"
   },
   {
     "title": "edwardstitleshot2",
-    "link": "edwardstitleshot2.mp3",
+    "link": "nedimedwardstitleshot2.mp3",
     "category": "Leon Edwards",
     "desc": "I believe I deserve the title shot"
   },
   {
     "title": "edwardstitleshot",
-    "link": "edwardstitleshot.mp3",
+    "link": "nedimedwardstitleshot.mp3",
     "category": "Leon Edwards",
     "desc": "I believe I deserve the title shot 2"
   },
   {
     "title": "rockholdcosta",
-    "link": "rockholdcosta.mp3",
+    "link": "nedimrockholdcosta.mp3",
     "category": "Luke Rockhold",
     "desc": "Costa is like a duck"
   },
   {
     "title": "vettoriquestion",
-    "link": "vettoriquestion.mp3",
+    "link": "nedimvettoriquestion.mp3",
     "category": "Marvin Vettori",
     "desc": "How the f is that even a question"
   },
   {
     "title": "conceievebelieveachieve",
-    "link": "conceievebelieveachieve.mp3",
+    "link": "nedimconceievebelieveachieve.mp3",
     "category": "Micheal Bisping",
     "desc": "Conceive believe achieve"
   },
   {
     "title": "chandlersurprise",
-    "link": "chandlersurprise.mp3",
+    "link": "nedimchandlersurprise.mp3",
     "category": "Micheal Chandler",
     "desc": "SURPRISE SURPRISE"
   },
   {
     "title": "andherewego",
-    "link": "andherewego.mp3",
+    "link": "nedimandherewego.mp3",
     "category": "Other",
     "desc": "And here we go"
   },
   {
     "title": "beatyoutolivingdeath",
-    "link": "beatyoutolivingdeath.mp3",
+    "link": "nedimbeatyoutolivingdeath.mp3",
     "category": "Other",
     "desc": "Beat you to living death"
   },
   {
     "title": "brucebufferkhabib",
-    "link": "brucebufferkhabib.mp3",
+    "link": "nedimbrucebufferkhabib.mp3",
     "category": "Other",
     "desc": "Bruce Buffer Khabib"
   },
   {
     "title": "brucebuffermcgregor",
-    "link": "brucebuffermcgregor.mp3",
+    "link": "nedimbrucebuffermcgregor.mp3",
     "category": "Other",
     "desc": "Bruce Buffer Mcgregor"
   },
   {
     "title": "bulgingdisk",
-    "link": "bulgingdisk.mp3",
+    "link": "nedimbulgingdisk.mp3",
     "category": "Other",
     "desc": "I had a bulging disk"
   },
   {
     "title": "joeroganumar",
-    "link": "joeroganumar.mp3",
+    "link": "nedimjoeroganumar.mp3",
     "category": "Other",
     "desc": "Umar Nurmagmmm"
   },
   {
     "title": "fukorfight",
-    "link": "fukorfight.mp3",
+    "link": "nedimfukorfight.mp3",
     "category": "Other",
     "desc": "I want to f9k fight"
   },
   {
     "title": "ohhhhblahovic",
-    "link": "ohhhhblahovic.mp3",
+    "link": "nedimohhhhblahovic.mp3",
     "category": "Other",
     "desc": "Ohhhhh Blahovic"
   },
   {
     "title": "ohhhhhrose",
-    "link": "ohhhhhrose.mp3",
+    "link": "nedimohhhhhrose.mp3",
     "category": "Other",
     "desc": "Ohhhh Rose"
   },
   {
     "title": "ohhhhmasvidal",
-    "link": "ohhhhmasvidal.mp3",
+    "link": "nedimohhhhmasvidal.mp3",
     "category": "Other",
     "desc": "OHhhh Masvidal"
   },
   {
     "title": "ohhhhwonderboy",
-    "link": "ohhhhwonderboy.mp3",
+    "link": "nedimohhhhwonderboy.mp3",
     "category": "Other",
     "desc": "Ohhhhh Wonderboy"
   },
   {
     "title": "ontheirfeet",
-    "link": "ontheirfeet.mp3",
+    "link": "nedimontheirfeet.mp3",
     "category": "Other",
     "desc": "They are on their feet"
   },
   {
     "title": "smithmerrychristmas",
-    "link": "smithmerrychristmas.mp3",
+    "link": "nedimsmithmerrychristmas.mp3",
     "category": "Other",
     "desc": "Merry xmas to me"
   },
   {
     "title": "thisisstilmyboy",
-    "link": "thisisstilmyboy.mp3",
+    "link": "nedimthisisstilmyboy.mp3",
     "category": "Other",
     "desc": "This is still my boy"
   },
   {
     "title": "tjbetterknowledge",
-    "link": "tjbetterknowledge.mp3",
+    "link": "nedimtjbetterknowledge.mp3",
     "category": "Other",
     "desc": "I have better knowledge than the ref"
   },
   {
     "title": "ufcembedded",
-    "link": "ufcembedded.mp3",
+    "link": "nedimufcembedded.mp3",
     "category": "Other",
     "desc": "UFC embedded"
   },
   {
     "title": "victory",
-    "link": "victory.mp3",
+    "link": "nedimvictory.mp3",
     "category": "Other",
     "desc": "Most satisfying victory"
   },
   {
     "title": "wearelive",
-    "link": "wearelive.mp3",
+    "link": "nedimwearelive.mp3",
     "category": "Other",
     "desc": "We are live"
   },
   {
     "title": "paddypimblet",
-    "link": "paddypimblet.mp3",
+    "link": "nedimpaddypimblet.mp3",
     "category": "Paddy Pimblett",
     "desc": "Im a scouser"
   },
   {
     "title": "costacirequedesole",
-    "link": "costacirequedesole.mp3",
+    "link": "nedimcostacirequedesole.mp3",
     "category": "Paulo Costa",
     "desc": "Costa cirque de sole"
   },
   {
     "title": "costahoneeymoon",
-    "link": "costahoneeymoon.mp3",
+    "link": "nedimcostahoneeymoon.mp3",
     "category": "Paulo Costa",
     "desc": "Honeey moon"
   },
   {
     "title": "costaskinnyclaw",
-    "link": "costaskinnyclaw.mp3",
+    "link": "nedimcostaskinnyclaw.mp3",
     "category": "Paulo Costa",
     "desc": "Skinny claw"
   },
   {
     "title": "costayairpainter",
-    "link": "costayairpainter.mp3",
+    "link": "nedimcostayairpainter.mp3",
     "category": "Paulo Costa",
     "desc": "Painter"
   },
   {
     "title": "costaswephisface",
-    "link": "costaswephisface.mp3",
+    "link": "nedimcostaswephisface.mp3",
     "category": "Paulo Costa",
     "desc": "Swep his face"
   },
   {
     "title": "costabroing",
-    "link": "costabroing.mp3",
+    "link": "nedimcostabroing.mp3",
     "category": "Paulo Costa",
     "desc": "Broing"
   },
   {
     "title": "costaiwillbe100percent",
-    "link": "costaiwillbe100percent.mp3",
+    "link": "nedimcostaiwillbe100percent.mp3",
     "category": "Paulo Costa",
     "desc": "100 percent"
   },
   {
     "title": "costajizzaprove",
-    "link": "costajizzaprove.mp3",
+    "link": "nedimcostajizzaprove.mp3",
     "category": "Paulo Costa",
     "desc": "Jizzaprove"
   },
   {
     "title": "costaumantrash",
-    "link": "costaumantrash.mp3",
+    "link": "nedimcostaumantrash.mp3",
     "category": "Paulo Costa",
     "desc": "Uman trash"
   },
   {
     "title": "costaexcuse",
-    "link": "costaexcuse.mp3",
+    "link": "nedimcostaexcuse.mp3",
     "category": "Paulo Costa",
     "desc": "No excuses"
   },
   {
     "title": "costalicense",
-    "link": "costalicense.mp3",
+    "link": "nedimcostalicense.mp3",
     "category": "Paulo Costa",
     "desc": "You have license "
   },
   {
     "title": "adesanyacalloutcosta",
-    "link": "adesanyacalloutcosta.mp3",
+    "link": "nedimadesanyacalloutcosta.mp3",
     "category": "Israel Adesanya",
     "desc": "Adesanya callout Costa"
   },
   {
     "title": "stipemiocicmumbling",
-    "link": "stipemiocicmumbling.mp3",
+    "link": "nedimstipemiocicmumbling.mp3",
     "category": "Stipe Miocic",
     "desc": "Stipe mumbling"
   },
   {
     "title": "fergusondanawhiteprivilege",
-    "link": "fergusondanawhiteprivilege.mp3",
+    "link": "nedimfergusondanawhiteprivilege.mp3",
     "category": "Tony Ferguson",
     "desc": "Dana White Privilege"
   },
   {
     "title": "fergusonholdon2",
-    "link": "fergusonholdon2.mp3",
+    "link": "nedimfergusonholdon2.mp3",
     "category": "Tony Ferguson",
     "desc": "Hold on im talking brother"
   },
   {
     "title": "fergusonholdon",
-    "link": "fergusonholdon.mp3",
+    "link": "nedimfergusonholdon.mp3",
     "category": "Tony Ferguson",
     "desc": "Hold on im talking"
   },
   {
     "title": "fergusonmcnuggets",
-    "link": "fergusonmcnuggets.mp3",
+    "link": "nedimfergusonmcnuggets.mp3",
     "category": "Tony Ferguson",
     "desc": "Where you at mcnuggets"
   },
   {
     "title": "fergusonpieceofshiet",
-    "link": "fergusonpieceofshiet.mp3",
+    "link": "nedimfergusonpieceofshiet.mp3",
     "category": "Tony Ferguson",
     "desc": "Piece of shiz"
   },
   {
     "title": "fergusonstreetfigt",
-    "link": "fergusonstreetfigt.mp3",
+    "link": "nedimfergusonstreetfigt.mp3",
     "category": "Tony Ferguson",
     "desc": "Street fight"
   },
   {
     "title": "fergusontiramisu",
-    "link": "fergusontiramisu.mp3",
+    "link": "nedimfergusontiramisu.mp3",
     "category": "Tony Ferguson",
     "desc": "Tiramisu time"
   },
   {
     "title": "fergusonwooh",
-    "link": "fergusonwooh.mp3",
+    "link": "nedimfergusonwooh.mp3",
     "category": "Tony Ferguson",
     "desc": "Woooh"
   },
   {
     "title": "fergusonwrestlers",
-    "link": "fergusonwrestlers.mp3",
+    "link": "nedimfergusonwrestlers.mp3",
     "category": "Tony Ferguson",
     "desc": "You like beating on high school wrestlers"
   },
   {
     "title": "lacandela",
-    "link": "lacandela.mp3",
+    "link": "nedimlacandela.mp3",
     "category": "Yoel Romero",
     "desc": "La Candela"
   },
   {
     "title": "noforgetjesus",
-    "link": "noforgetjesus.mp3",
+    "link": "nedimnoforgetjesus.mp3",
     "category": "Yoel Romero",
     "desc": "No forget Jesus"
   },
   {
     "title": "romeroiloveyou",
-    "link": "romeroiloveyou.mp3",
+    "link": "nedimromeroiloveyou.mp3",
     "category": "Yoel Romero",
     "desc": "I love you"
   },
   {
     "title": "wandereiswoon",
-    "link": "wandereiswoon.mp3",
+    "link": "nedimwandereiswoon.mp3",
     "category": "Wanderlei Silva",
     "desc": "Swoon"
   },
   {
     "title": "wanderleisuckmyballs",
-    "link": "wanderleisuckmyballs.mp3",
+    "link": "nedimwanderleisuckmyballs.mp3",
     "category": "Wanderlei Silva",
     "desc": "Suck my balls"
   },
   {
     "title": "wanderleiwannanow2",
-    "link": "wanderleiwannanow2.mp3",
+    "link": "nedimwanderleiwannanow2.mp3",
     "category": "Wanderlei Silva",
     "desc": "Wanna now"
   },
   {
     "title": "wanderleisilvawannanow",
-    "link": "wanderleisilvawannanow.mp3",
+    "link": "nedimwanderleisilvawannanow.mp3",
     "category": "Wanderlei Silva",
     "desc": "Wanna now 2"
   },
