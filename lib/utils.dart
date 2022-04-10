@@ -5,7 +5,26 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:just_audio/just_audio.dart';
 
-final AudioPlayer player123 = AudioPlayer();
+import 'package:get_storage/get_storage.dart';
+
+final AudioPlayer player1 = AudioPlayer();
+
+final box = GetStorage();
+
+void readBox() {
+  if (box.read('searchbar') == null) {
+    box.write('searchbar', false);
+    print('Box made');
+  }
+  print('Box already made');
+}
+
+void sliderreadBox() {
+  if (box.read('slider1') == null || box.read('slider2') == null) {
+    box.write('slider1', 1.0);
+    box.write('slider2', 1.0);
+  }
+}
 
 write(String text) async {
   final Directory directory = await getApplicationDocumentsDirectory();
